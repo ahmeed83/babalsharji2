@@ -1,4 +1,4 @@
-package xxxxxx.yyyyyy.zzzzzz.domain.service.user;
+package com.domain.service.user;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
@@ -15,9 +15,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import xxxxxx.yyyyyy.zzzzzz.domain.model.User;
-import xxxxxx.yyyyyy.zzzzzz.domain.repository.user.UserRepository;
-import xxxxxx.yyyyyy.zzzzzz.domain.service.user.UserServiceImpl;
+import com.domain.model.User;
+import com.domain.repository.user.UserRepository;
 
 public class UserServiceImplTest {
     protected UserServiceImpl userService;

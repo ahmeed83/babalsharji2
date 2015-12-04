@@ -1,4 +1,4 @@
-package xxxxxx.yyyyyy.zzzzzz.domain.repository.user;
+package com.domain.repository.user;
 
 import static org.junit.Assert.*;
 
@@ -13,7 +13,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.OptimisticLockingFailureException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -23,8 +22,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.transaction.TransactionConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
-import xxxxxx.yyyyyy.zzzzzz.domain.model.User;
-import xxxxxx.yyyyyy.zzzzzz.domain.repository.user.UserRepository;
+import com.domain.model.User;
 
 
 import static org.hamcrest.CoreMatchers.*;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <descriptors>
-  <descriptor id="xxxxxx.yyyyyy.zzzzzz"
+  <descriptor id="com"
 	      name="Spring Web Application Template Project" kind="template"
 	      local="false"
 	      version="1.0.0.20131109104559" size="415000"

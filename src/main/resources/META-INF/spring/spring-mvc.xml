@@ -17,7 +17,7 @@
         </mvc:argument-resolvers>
     </mvc:annotation-driven>
 
-    <context:component-scan base-package="xxxxxx.yyyyyy.zzzzzz.app" />
+    <context:component-scan base-package="com.app" />
 
     <mvc:resources mapping="/resources/**"
         location="/resources/,classpath:META-INF/resources/"

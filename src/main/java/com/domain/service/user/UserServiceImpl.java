@@ -1,4 +1,4 @@
-package xxxxxx.yyyyyy.zzzzzz.domain.service.user;
+package com.domain.service.user;
 
 import java.util.Date;
 
@@ -11,9 +11,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import xxxxxx.yyyyyy.zzzzzz.domain.common.exception.ResourceNotFoundException;
-import xxxxxx.yyyyyy.zzzzzz.domain.model.User;
-import xxxxxx.yyyyyy.zzzzzz.domain.repository.user.UserRepository;
+import com.domain.common.exception.ResourceNotFoundException;
+import com.domain.model.User;
+import com.domain.repository.user.UserRepository;
 
 @Service
 @Transactional

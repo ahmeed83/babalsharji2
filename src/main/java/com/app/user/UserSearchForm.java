@@ -1,4 +1,4 @@
-package xxxxxx.yyyyyy.zzzzzz.app.user;
+package com.app.user;
 
 import java.io.Serializable;
 

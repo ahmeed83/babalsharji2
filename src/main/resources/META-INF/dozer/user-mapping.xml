@@ -5,8 +5,8 @@
           http://dozer.sourceforge.net/schema/beanmapping.xsd">
           
   <mapping map-id="userExcludePassword"> 
-    <class-a>xxxxxx.yyyyyy.zzzzzz.domain.model.User</class-a>
-    <class-b>xxxxxx.yyyyyy.zzzzzz.app.user.UserForm</class-b>
+    <class-a>com.domain.model.User</class-a>
+    <class-b>com.app.user.UserForm</class-b>
     <field-exclude>
         <a>password</a>
         <b>password</b>

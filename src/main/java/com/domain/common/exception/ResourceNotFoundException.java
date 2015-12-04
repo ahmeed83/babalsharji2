@@ -1,4 +1,4 @@
-package xxxxxx.yyyyyy.zzzzzz.domain.common.exception;
+package com.domain.common.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     /**

@@ -1,5 +1,5 @@
 <template>
-  <descriptor id="xxxxxx.yyyyyy.zzzzzz"
+  <descriptor id="com"
 	      name="Spring Template Web Application"
 	      kind="template"
 	      version="${version}">

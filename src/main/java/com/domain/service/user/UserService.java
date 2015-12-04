@@ -1,9 +1,9 @@
-package xxxxxx.yyyyyy.zzzzzz.domain.service.user;
+package com.domain.service.user;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import xxxxxx.yyyyyy.zzzzzz.domain.model.User;
+import com.domain.model.User;
 
 public interface UserService {
 	void save(User user, String rawPassword);

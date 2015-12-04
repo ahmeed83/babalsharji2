@@ -1,4 +1,4 @@
-package xxxxxx.yyyyyy.zzzzzz.app.user;
+package com.app.user;
 
 import javax.inject.Inject;
 import javax.validation.groups.Default;
@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import xxxxxx.yyyyyy.zzzzzz.app.user.UserForm.UserCreateGroup;
-import xxxxxx.yyyyyy.zzzzzz.app.user.UserForm.UserDeleteGroup;
-import xxxxxx.yyyyyy.zzzzzz.app.user.UserForm.UserUpdateGroup;
-import xxxxxx.yyyyyy.zzzzzz.domain.model.User;
-import xxxxxx.yyyyyy.zzzzzz.domain.service.user.UserService;
+import com.app.user.UserForm.UserCreateGroup;
+import com.app.user.UserForm.UserDeleteGroup;
+import com.app.user.UserForm.UserUpdateGroup;
+import com.domain.model.User;
+import com.domain.service.user.UserService;
 
 @Controller
 @RequestMapping("user")
