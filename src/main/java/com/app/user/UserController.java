@@ -1,8 +1,10 @@
 package com.app.user;
 
-import javax.inject.Inject;
-import javax.validation.groups.Default;
-
+import com.app.user.UserForm.UserCreateGroup;
+import com.app.user.UserForm.UserDeleteGroup;
+import com.app.user.UserForm.UserUpdateGroup;
+import com.domain.model.User;
+import com.domain.service.user.UserService;
 import org.dozer.Mapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,11 +16,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.app.user.UserForm.UserCreateGroup;
-import com.app.user.UserForm.UserDeleteGroup;
-import com.app.user.UserForm.UserUpdateGroup;
-import com.domain.model.User;
-import com.domain.service.user.UserService;
+import javax.inject.Inject;
+import javax.validation.groups.Default;
 
 @Controller
 @RequestMapping("user")

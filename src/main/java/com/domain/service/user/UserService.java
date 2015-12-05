@@ -6,6 +6,7 @@ import org.springframework.data.domain.Pageable;
 import com.domain.model.User;
 
 public interface UserService {
+
 	void save(User user, String rawPassword);
 
 	User findOne(Integer id);
