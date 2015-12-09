@@ -1,12 +1,11 @@
 dyploymant:
-	dockerhub:
-		branch: master 
-		commands: 
-			-$DOCKER_HUB_TRIGGER
+dockerhub:
+branch: master 
+commands:
+-$DOCKER_HUB_TRIGGER
 
-
-test : 
-	override
-		-mocha 
+test: 
+override
+-mocha 
 
 
