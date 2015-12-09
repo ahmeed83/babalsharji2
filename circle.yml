@@ -2,7 +2,7 @@ dyploymant:
 dockerhub:
 branch: master 
 commands:
--$DOCKER_HUB_TRIGGER
+- $DOCKER_HUB_TRIGGER
 
 test: 
 override
