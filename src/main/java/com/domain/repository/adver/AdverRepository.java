@@ -5,6 +5,4 @@ package com.domain.repository.adver;
  */
 public class AdverRepository {
 
-
-
 }
